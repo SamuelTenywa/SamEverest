@@ -9,3 +9,8 @@ p{
     color: red;
     
 }
+div {
+    float:left;
+    margin: 10%;
+    border: 3px outset #333;
+} 
