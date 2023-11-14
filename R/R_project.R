@@ -1,0 +1,64 @@
+apropos("mea")
+100/(1+0.08)^2
+ls()
+x<-c(1:5,10:20)
+x
+length(x)
+a<-seq(1,10,0.2)
+a
+c<-seq(1,8)
+y=matrix(4,2,byrow=T)
+y
+ls()
+pv =fv/(1+r)^2
+pv
+triple(2)
+triple(1.45)
+A=W*H
+areaRectangle<-function(w,h)w*h
+areaRectangle(2,8)
+areaRectangle(2.5,3.75)
+perimeterSquare<-function(l)4*l
+perimeterSquare(3.36)
+pv_f<-function(fv,r,n)fv/(1+r)^n
+pv_f(100,0.08,2)
+pv_f(100,0.08,1)
+my_f<-function(x,y,aa,aabb){
+  cat("x=",x,"\n")
+}
+#case 1
+my_f(aa=2,3,4)
+pv_f()
+hello<-function() print("hello")
+hello()
+exit<-function()print('leave')
+exit()
+pv_f<-function(fv,r,n){
+  PVIF<<-(1+r)^n
+  pv<-fv/PVIF
+  return(pv)
+}
+pv_f(200,0.1,3)
+PVIF
+dir("C://")
+dir("E://")
+set.seed(12345)
+x<-runif(100)
+head(x)
+pv_annuity<-function(c,r,n){
+  pv_annuity<-c/r*(1-1/(1+r)^n)
+  return (pv_annuity)
+}
+pv_perpetuity<-function(c,r){
+  pv_p<-c/r
+  return(pv_p)
+}
+pv_perpetuity(0.01,0.5)
+pv_perpetuity(200,0.04)
+pv_annuity(100,0.08,3)
+d<-c(1:10,4,5)
+d
+q<-matrix(1:10,5,2)
+t<-1:500
+summary(t)
+ls(pattern='pv$')
