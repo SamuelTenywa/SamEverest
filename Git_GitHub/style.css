@@ -1,0 +1,18 @@
+h1{
+    color: blue;
+    font-size: 0.7em;
+    text-align: middle;
+}
+
+p{
+    font-size: 0.6em;
+    color: red;
+    
+}
+div {
+    float:left;
+    margin: 10%;
+    border: 3px outset #333;
+    display: block;
+    overflow: auto;
+} 
