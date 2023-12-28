@@ -30,13 +30,13 @@ public class no2 {
 		
 		scan.close();
 		System.out.println("\n");
-		System.out.println(area(3,7));
-		System.out.println(perimeter(7,6));
+		System.out.println(area(5,8));
+		System.out.println(perimeter(7,5));
 		
-		System.out.println("  J    a      v     v      a");
-		System.out.println("  J   a  a     v   v      a  a");
-		System.out.println("J J  aaaaaa     v v      aaaaaa");
-		System.out.println(" JJ a      a    V      a      a");
+		System.out.println("   J    a     v     v     a");
+		System.out.println("   J   a a     v   v     a  a");
+		System.out.println("J  J  aaaaa     v v     aaaaaa");
+		System.out.println(" JJ  a     a     V     a      a");
 		System.out.println((25.5*3.5-3.5*3.5));
 		
 		double a=25.5,y=3.5,k=40.5,r=4.5;
@@ -129,17 +129,7 @@ public class no2 {
 		}
 		System.out.println(reversedStr);
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+				
 		
 	}
 	
